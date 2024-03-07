@@ -66,7 +66,7 @@ if result:
     text = str(result.get("GET_TEXT"))
     in_lang = st.selectbox(
         "Selecciona el lenguaje de Entrada",
-        ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés", "Francés", "Alemán"),
+        ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés", "Franc", "Alemán"),
     )
     if in_lang == "Inglés":
         input_language = "en"
@@ -80,7 +80,7 @@ if result:
         input_language = "zh-cn"
     elif in_lang == "Japonés":
         input_language = "ja"
-    elif in_lang == "Francés":
+    elif in_lang == "Franc":
         input_languaje = "fr"
     elif in_lang == "Alemán":
         input_languaje = "de"
