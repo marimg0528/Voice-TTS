@@ -104,7 +104,7 @@ if result:
     elif in_lang == "Francés":
         output_languaje = "fr"
      elif in_lang == "Alemán":
-        output_languaje = "al"
+        output_languaje = "ger"
     
     english_accent = st.selectbox(
         "Selecciona el acento",
